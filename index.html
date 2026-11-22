@@ -1,197 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Teslimah Shittu</title>
-<meta name="description" content="Teslimah Opeyemi Shittu works across cybersecurity, mobile development and data.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg: #f2f3ee;
-    --ink: #1b1d24;
-    --muted: #5b606d;
-    --accent: #2d3fe0;
-    --tint: #dfe3fb;
-    --line: #c9ccd6;
-    --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
-    --text: "Newsreader", Georgia, "Times New Roman", serif;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #14161d;
-      --ink: #eceef4;
-      --muted: #a2a7b6;
-      --accent: #8b97ff;
-      --tint: #232744;
-      --line: #343848;
-    }
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: var(--text);
-    font-size: 1.15rem;
-    line-height: 1.65;
-  }
-  a { color: var(--accent); text-underline-offset: 3px; }
-  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 0 1.5rem; }
-
-  header.hero { padding: 5rem 0 3.5rem; }
-  .hero h1 {
-    font-family: var(--display);
-    font-weight: 800;
-    font-size: clamp(3.4rem, 13vw, 8rem);
-    line-height: .92;
-    letter-spacing: -.04em;
-    margin: 0 0 1.75rem;
-  }
-  .hero h1 span { display: block; color: var(--accent); }
-  .hero p.lead {
-    font-size: clamp(1.25rem, 2.6vw, 1.6rem);
-    line-height: 1.45;
-    max-width: 30em;
-    margin: 0 0 1.75rem;
-  }
-  nav { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; font-family: var(--display); font-weight: 700; font-size: 1rem; }
-
-  section { padding: 3rem 0; border-top: 2px solid var(--ink); }
-  h2 {
-    font-family: var(--display);
-    font-weight: 800;
-    font-size: clamp(1.7rem, 4vw, 2.4rem);
-    letter-spacing: -.02em;
-    line-height: 1.1;
-    margin: 0 0 1.5rem;
-  }
-  h3 { font-family: var(--display); font-weight: 700; font-size: 1.2rem; margin: 0 0 .25rem; line-height: 1.3; }
-  p { margin: 0 0 1rem; max-width: 36em; }
-  .meta { color: var(--muted); font-style: italic; margin-bottom: .5rem; }
-
-  /* The one memorable element: three stacked layers */
-  .stack { display: grid; gap: 0; margin-top: 1rem; }
-  .layer {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: .25rem 2rem;
-    padding: 1.5rem 1.5rem;
-    border: 2px solid var(--ink);
-    margin-top: -2px;
-    background: var(--bg);
-  }
-  .layer:nth-child(1) { background: var(--accent); color: #fff; margin-left: 0; }
-  .layer:nth-child(2) { background: var(--tint); margin-left: 1.5rem; }
-  .layer:nth-child(3) { margin-left: 3rem; }
-  .layer h3 { font-size: 1.5rem; }
-  .layer p { margin: 0; max-width: 34em; }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .layer:nth-child(1) { color: #10122a; }
-  }
-  @media (max-width: 560px) {
-    .layer:nth-child(2) { margin-left: .75rem; }
-    .layer:nth-child(3) { margin-left: 1.5rem; }
-  }
-
-  .timeline { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--ink); }
-  .timeline li { position: relative; padding: 0 0 2rem 1.75rem; }
-  .timeline li:last-child { padding-bottom: 0; }
-  .timeline li::before {
-    content: ""; position: absolute; left: -9px; top: .55rem;
-    width: 16px; height: 16px; background: var(--bg); border: 2px solid var(--ink); border-radius: 50%;
-  }
-  .timeline li.now::before { background: var(--accent); border-color: var(--accent); }
-
-  ul.plain { padding-left: 1.2rem; margin: 0; max-width: 36em; }
-  ul.plain li { margin-bottom: .6rem; }
-
-  .contact a { font-family: var(--display); font-weight: 700; }
-  footer { padding: 2.5rem 0 4rem; color: var(--muted); font-size: 1rem; border-top: 2px solid var(--ink); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teslimah Shittu | My First Webpage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrap">
-
-  <header class="hero">
-    <h1>Teslimah <span>Shittu</span></h1>
-    <p class="lead">I build mobile apps, work through data, and am getting hands-on with cybersecurity.</p>
-    <nav aria-label="Page sections">
-      <a href="#work">What I do</a>
-      <a href="#experience">Experience</a>
-      <a href="#credentials">Certifications</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header>
+    <h1>Teslimah Shittu</h1>
+    <p>Computer Science graduate learning front-end development.</p>
   </header>
 
-  <section id="work">
-    <h2>Three layers of how I work</h2>
-    <div class="stack">
-      <div class="layer">
-        <h3>Secure</h3>
-        <p>I hold the Google Cybersecurity certificate and the Cisco Endpoint Security certificate, I am in a cybersecurity internship now, and I am preparing for CompTIA Security+.</p>
-      </div>
-      <div class="layer">
-        <h3>Build</h3>
-        <p>I make mobile apps with React Native and Flutter. At Axia Africa I shipped an e-commerce app, and the code is on GitHub.</p>
-      </div>
-      <div class="layer">
-        <h3>Analyze</h3>
-        <p>I clean and model data with Python and SQL, and I finished the Associate Data Scientist in Python career track on DataCamp.</p>
-      </div>
-    </div>
-  </section>
+  <main>
+    <section>
+      <h2>About me</h2>
+      <p>I build mobile apps and I am learning to build for the web.</p>
+      <a class="button" href="#skills">See my skills</a>
+    </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <ol class="timeline">
-      <li class="now">
-        <h3>Cybersecurity internship</h3>
-        <div class="meta">Current</div>
-        <p>Learning security practice on the job while I work toward Security+.</p>
-      </li>
-      <li>
-        <h3>Mobile app development intern, Axia Africa</h3>
-        <div class="meta">November 2025 to March 2026</div>
-        <p>Built and shipped a React Native e-commerce app.</p>
-      </li>
-      <li>
-        <h3>Graduate service, Finance department (NYSC)</h3>
-        <p>Worked inside a finance team during my National Youth Service year.</p>
-      </li>
-      <li>
-        <h3>Data internship</h3>
-        <div class="meta">2024</div>
-        <p>Completed 28 DataCamp courses covering Python, SQL, data cleaning and machine learning.</p>
-      </li>
-    </ol>
-  </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>React Native and Flutter</li>
+        <li>Python and SQL</li>
+        <li>Cybersecurity basics</li>
+      </ul>
+    </section>
+  </main>
 
-  <section id="credentials">
-    <h2>Certifications and teaching</h2>
-    <ul class="plain">
-      <li>Google Cybersecurity Certificate</li>
-      <li>Cisco Endpoint Security certificate</li>
-      <li>DataCamp Associate Data Scientist in Python, 90 hours, completed 16 August 2024</li>
-      <li>I have facilitated technical workshops, including web development.</li>
-    </ul>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Get in touch</h2>
-    <p>I am open to graduate trainee programmes across finance, technology and supply chain, and to security analyst internships and entry-level roles in Nigeria.</p>
-    <p>
-      <a href="mailto:your-email@example.com">your-email@example.com</a><br>
-      <a href="https://github.com/your-username">github.com/your-username</a><br>
-      <a href="https://www.linkedin.com/in/your-username">linkedin.com/in/your-username</a>
-    </p>
-  </section>
-
-  <footer>Teslimah Opeyemi Shittu</footer>
-</div>
+  <footer>
+    <p>Built with VS Code, tested with Live Server and Chrome DevTools.</p>
+  </footer>
 </body>
 </html>
