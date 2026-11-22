@@ -1,36 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Teslimah Shittu | My First Webpage</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teslimah Shittu</title>
+<meta name="description" content="Teslimah Opeyemi Shittu works across cybersecurity, mobile development and data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Teslimah Shittu</h1>
-    <p>Computer Science graduate learning front-end development.</p>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>Teslimah <span>Shittu</span></h1>
+    <p class="lead">I build mobile apps, work through data, and am getting hands-on with cybersecurity.</p>
+    <nav aria-label="Page sections">
+      <a href="#work">What I do</a>
+      <a href="#experience">Experience</a>
+      <a href="#credentials">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>About me</h2>
-      <p>I build mobile apps and I am learning to build for the web.</p>
-      <a class="button" href="#skills">See my skills</a>
-    </section>
+  <section id="work">
+    <h2>Three layers of how I work</h2>
+    <div class="stack">
+      <div class="layer">
+        <h3>Secure</h3>
+        <p>I hold the Google Cybersecurity certificate and the Cisco Endpoint Security certificate, I am in a cybersecurity internship now, and I am preparing for CompTIA Security+.</p>
+      </div>
+      <div class="layer">
+        <h3>Build</h3>
+        <p>I make mobile apps with React Native and Flutter. At Axia Africa I shipped an e-commerce app, and the code is on GitHub.</p>
+      </div>
+      <div class="layer">
+        <h3>Analyze</h3>
+        <p>I clean and model data with Python and SQL, and I finished the Associate Data Scientist in Python career track on DataCamp.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>React Native and Flutter</li>
-        <li>Python and SQL</li>
-        <li>Cybersecurity basics</li>
-      </ul>
-    </section>
-  </main>
+  <section id="experience">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li class="now">
+        <h3>Cybersecurity internship</h3>
+        <div class="meta">Current</div>
+        <p>Learning security practice on the job while I work toward Security+.</p>
+      </li>
+      <li>
+        <h3>Mobile app development intern, Axia Africa</h3>
+        <div class="meta">November 2025 to March 2026</div>
+        <p>Built and shipped a React Native e-commerce app.</p>
+      </li>
+      <li>
+        <h3>Graduate service, Finance department (NYSC)</h3>
+        <p>Worked inside a finance team during my National Youth Service year.</p>
+      </li>
+      <li>
+        <h3>Data internship</h3>
+        <div class="meta">2024</div>
+        <p>Completed 28 DataCamp courses covering Python, SQL, data cleaning and machine learning.</p>
+      </li>
+    </ol>
+  </section>
 
-  <footer>
-    <p>Built with VS Code, tested with Live Server and Chrome DevTools.</p>
-  </footer>
+  <section id="credentials">
+    <h2>Certifications and teaching</h2>
+    <ul class="plain">
+      <li>Google Cybersecurity Certificate</li>
+      <li>Cisco Endpoint Security certificate</li>
+      <li>DataCamp Associate Data Scientist in Python, 90 hours, completed 16 August 2024</li>
+      <li>I have facilitated technical workshops, including web development.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get in touch</h2>
+    <p>I am open to graduate trainee programmes across finance, technology and supply chain, and to security analyst internships and entry-level roles in Nigeria.</p>
+    <p>
+      <a href="mailto:shittuteslimah3@gmail.com">shittuteslimah3@gmail.com</a><br>
+      <a href="https://github.com/tesleemah">github.com/tesleemah</a><br>
+      <a href="https://www.linkedin.com/in/teslimah-shittu">linkedin.com/in/teslimah-shittu</a>
+    </p>
+  </section>
+
+  <footer>Teslimah Opeyemi Shittu</footer>
+</div>
 </body>
 </html>
